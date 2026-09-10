@@ -53,4 +53,4 @@ go red.
 
 Solidity · Foundry · ERC-4626 · cross-chain · TypeScript · NestJS · PostgreSQL · Python
 
-[richardjamieson.co.za](https://richardjamieson.co.za/) · jamieson.rich@gmail.com
+[richardjamieson.co.za](https://richardjamieson.co.za/) · [LinkedIn](https://www.linkedin.com/in/richard-jamieson-9a06964/) · jamieson.rich@gmail.com
