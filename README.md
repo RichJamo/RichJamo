@@ -31,6 +31,13 @@ confirmation rather than to deposit, which removes the window instead of narrowi
 ways to hide a critical bug from an AI code auditor. Three failed. One got me caught, and the
 fourth was not an attack at all. Seventy runs, every transcript committed.
 
+**[audit-harness](https://github.com/RichJamo/audit-harness).** The enforcement half of the
+method I use in audit contests, with Claude Code doing much of the hunting. It holds two rules
+in place: a hypothesis is killed only by a proof of concept that fails, never by an argument,
+and a person decides scope, not the model. While those rules were written only in prose, one
+audit broke the first on 7 of 11 parked rows. Now a ledger tool and two Claude Code hooks refuse
+the change instead. MIT-licensed.
+
 **[hydrex-periphery](https://github.com/RichJamo/hydrex-periphery).** Hydrex's auxiliary
 contracts, in Foundry. The token, the Basedrop campaign, escrow, and the conduits that
 automate parts of the protocol.
